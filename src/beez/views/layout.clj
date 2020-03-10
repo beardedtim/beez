@@ -10,9 +10,9 @@
       [:meta {:http-equiv "X-UA-Compatible" :content "IE=edge,chrome-1"}]
       [:meta {:name "viewport" :content "width=device-width, intial-scale=1, maxium-scale-=1"}]
       [:title title]
-      (h/include-css "/stylesheets/base.css"
-                    "/stylesheets/skeleton.css"
-                    "/stylesheets/screen.css")
+      (h/include-css "/public/stylesheets/base.css"
+                    "/public/stylesheets/skeleton.css"
+                    "/public/stylesheets/screen.css")
       (h/include-css "http://fonts.googleapis.com/css?family=Sigmar+One&v1")]
     [:body
       [:div {:id "header"}
